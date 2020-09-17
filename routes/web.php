@@ -26,3 +26,6 @@ Route::get('admin/home', 'HomeController@adminHome')->name('admin.home')->middle
 
 
 Route::get('home/about', 'AboutController@index'); //Home->About page
+
+
+Route::post('/admin', 'AdminController@store');
